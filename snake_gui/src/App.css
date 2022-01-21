@@ -1,0 +1,111 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+.board{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 404px;
+  width: 404px;
+  margin-top: -152px;
+  margin-left: -202px;
+  border: double 20px transparent;
+  background-image: linear-gradient(black, black), radial-gradient(gray 10%, black 50%,  gray 90%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.element{
+  position: absolute;
+  background-color: white;
+  height: 36px;
+  width: 36px;
+}
+
+.playGameButton{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  width: 100px;
+  margin-top: -260px;
+  margin-left: -140px;
+  background-color: #106AED;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  border-radius: 25px;
+  border: none;
+  z-index: 1;
+  box-shadow: 2px 5px #999999;
+}
+
+.playGameButton:hover {
+  background-color: #0540A7;
+}
+
+.playGameButton:active {
+  box-shadow: 1px 3px #666666;
+  transform: translateX(1px);
+  transform: translateY(2px);
+}
+
+.resetGameButton{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  width: 100px;
+  margin-top: -260px;
+  margin-left: 40px;
+  background-color: #106AED;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  border-radius: 25px;
+  border: none;
+  z-index: 1;
+  box-shadow: 2px 5px #999999;
+}
+
+.resetGameButton:hover {
+  background-color: #0540A7;
+}
+
+.resetGameButton:active {
+  box-shadow: 1px 3px #666666;
+  transform: translateX(1px);
+  transform: translateY(2px);
+}
+
+.generationInput{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 30px;
+  width: 50px;
+  margin-top: -197px;
+  margin-left: +160px;
+  background-color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  border-radius: 25px;
+  border: 3px solid #484949;
+}
+
+.generationText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -205px;
+  margin-left: -200px;
+  background-color: black;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 900;
+  color: white;
+}
