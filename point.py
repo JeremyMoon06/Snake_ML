@@ -1,3 +1,5 @@
+# Refer to README.md
+
 class Point:
     # Point class for organization of needed positions
     direction = 0

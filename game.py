@@ -1,3 +1,5 @@
+# Refer to README.md
+
 import random
 
 from point import Point

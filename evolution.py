@@ -1,3 +1,5 @@
+# Refer to README.md
+
 import random
 
 import json
@@ -59,8 +61,7 @@ def evolve(total_generations: int, generation_size=100):
         print(f'Generation {generation_iteration + 1} = {test}')
         # Make new generation with breeding and mutation
         generation = make_new_generation(generation)[:]
-    # Save gameplay of best of each generation in json list txt file for gui
-    # database.save_gameplay(dna_list)
+    # Save dna list for database
     with open('dna_data.json', 'w') as f:
         json.dump(dna_list, f)
 
