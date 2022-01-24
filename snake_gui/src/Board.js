@@ -1,5 +1,7 @@
 import React from 'react';
 
+/* Render board */
+
 const Board = () => {
   return (
     <div

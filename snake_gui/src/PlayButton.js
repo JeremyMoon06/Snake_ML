@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class PlayButton extends Component {
 
-  /* Button information for play */
+  /* Render play button */
 
   render() {
     let playGame = this.props.playGame;

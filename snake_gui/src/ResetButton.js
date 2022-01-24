@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class ResetButton extends Component {
 
-  /* Button information for reset */
+  /* Render reset button */
 
   render() {
     let resetBoard = this.props.resetBoard;

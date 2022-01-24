@@ -1,4 +1,5 @@
 # Refer to README.md
+# Snake game foundation
 
 import random
 

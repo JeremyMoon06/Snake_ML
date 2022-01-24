@@ -17,7 +17,7 @@ class App extends Component {
     this.setState({generationNumber: event.target.value})
   }
 
-/* Render all modularizations */
+/* Render all components */
 
   render(){
     return (

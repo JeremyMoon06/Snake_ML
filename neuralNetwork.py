@@ -1,4 +1,5 @@
 # Refer to README.md
+# Neural network manipulations for snake DNA
 
 import random
 

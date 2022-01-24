@@ -1,4 +1,5 @@
 # Refer to README.md
+# Evolution class for genetic algorithm
 
 import random
 

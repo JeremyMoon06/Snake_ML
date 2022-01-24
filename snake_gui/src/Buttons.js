@@ -4,7 +4,7 @@ import axios from 'axios'
 import PlayButton from './PlayButton';
 import ResetButton from './ResetButton';
 
-/* Functions for play and reset game live within this component */
+/* Functions for play and reset game are within this component */
 
 class Buttons extends Component {
   /* Timeout list for dynamic gameplay and for efficient resets */
@@ -52,7 +52,7 @@ class Buttons extends Component {
 
             /* Define a unique key for each element */
             let elementKey = (i * 10) + j;
-            /* Push all elements into list of elements */
+            /* Push element into list of elements */
             listOfElements.push(
               <div
                 key={`element${elementKey}`}
@@ -116,6 +116,7 @@ class Buttons extends Component {
     );
   }
 
+  /* Render buttons */
   render() {
     return (
       <div>

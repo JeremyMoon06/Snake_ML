@@ -1,4 +1,5 @@
 # Refer to README.md
+# Point class for Game
 
 class Point:
     # Point class for organization of needed positions

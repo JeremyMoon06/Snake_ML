@@ -1,4 +1,5 @@
 # Refer to README.md
+# Database class for saving gameplay to MySQL database
 
 import copy
 import json

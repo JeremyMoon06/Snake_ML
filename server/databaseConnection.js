@@ -1,6 +1,5 @@
 /* Refer to README.md */
 /* Set up connection to database within configConnection.js */
-/* Utilize express for web application and cors for fetching url in ui */
 const express = require('express');
 const bodyParser = require('body-parser');
 const connection = require('./configConnection').connection;
